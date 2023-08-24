@@ -67,4 +67,4 @@ if st.button("Predict"):
 
 
 st.sidebar.markdown("[Contact me](mailto:merry0zeray@gmail.com)")
-
+st.markdown("Prepared by Merry Zeray Semereab")
