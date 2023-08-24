@@ -66,5 +66,5 @@ if st.button("Predict"):
 
 
 
-st.sidebar.markdown("<a href = "mailto:merry0zeray@gmail.com" style='text-align: center;'>Contact me </a>", unsafe_allow_html=True)
+st.sidebar.markdown("<a href = 'mailto:merry0zeray@gmail.com' style='text-align: center;'>Contact me </a>", unsafe_allow_html=True)
 st.markdown("<h6 style='text-align: center; color:gray'>Prepared by Merry Zeray Semereab</h6>", unsafe_allow_html=True)
