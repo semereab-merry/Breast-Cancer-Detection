@@ -5,7 +5,7 @@ import breast_cancer_detection
 
 
 # declaring a variable so that the selected name will be assigned to the variable
-dataset_name = st.sidebar.write("""# Data Set: Breast Cancer""")
+dataset_name = st.sidebar.markdown("<h1 style='text-align: center;'>Data Set: Breast Cancer </h1>", unsafe_allow_html=True)
 st.sidebar.write("""### Classifier: Logic regression""")
 
 def get_dataset(dataset_name):
@@ -66,5 +66,5 @@ if st.button("Predict"):
 
 
 
-st.sidebar.markdown("[Contact me](mailto:merry0zeray@gmail.com)")
-st.markdown("Prepared by Merry Zeray Semereab")
+st.sidebar.markdown("<a href = "mailto:merry0zeray@gmail.com" style='text-align: center;'>Contact me </a>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-align: center; color:gray'>Prepared by Merry Zeray Semereab</h6>", unsafe_allow_html=True)
